@@ -17,7 +17,9 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale
 }
-
+.custom-linkedin-icon {
+    transform: scale(2.5); /* Adjust the scale value to make the logo larger */
+}
 .arrow_up,
 .arrow_down,
 .arrow_left,
