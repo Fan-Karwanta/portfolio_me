@@ -1031,7 +1031,7 @@ ul {
 
 .services .item:hover .circle {
     border: 1px solid #ffffff;
-    background-color: rgba(242, 30, 78, 0.1);
+    background-color: rgba(0, 255, 242, 0.226);
 }
 
 .services .item .circle {
