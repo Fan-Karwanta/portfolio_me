@@ -1566,7 +1566,7 @@ ul {
 }
 
 /* -----------------------------
-		 Preloader 
+         Preloader 
 --------------------------------- */
 
 .loading {
@@ -1577,25 +1577,32 @@ ul {
     width: 100%;
     background-color: #ffffff;
     z-index: 99999;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center;
 }
 
-.loading .circle {
-    margin: auto;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: #00FFFF;
-    -webkit-animation: load 0.9s infinite linear;
-    animation: load 0.9s infinite linear;
+.loading .name {
+    font-family: 'Courier New', monospace; /* Use a monospace font for a coding style effect */
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.loading .name::after {
+    content: '';
+    animation: dots 1.5s infinite;
+}
+
+@keyframes dots {
+    0% {
+        content: '.';
+    }
+    33% {
+        content: '..';
+    }
+    66% {
+        content: '...';
+    }
 }
 
 @-webkit-keyframes load {
