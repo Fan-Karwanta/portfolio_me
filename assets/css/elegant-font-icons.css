@@ -20,15 +20,18 @@
 .custom-linkedin-icon {
     transform: scale(2.5); /* Default scale for larger devices */
 
-    /* Adjust the scaling for different screen sizes */
+    /* Adjust the scaling for different screen sizes and device orientations */
     @media (max-width: 767px) {
-        transform: scale(2); /* Scale down for smaller devices */
+        transform: scale(1.5); /* Scale down for smaller devices */
     }
 
-    @media (max-width: 480px) {
-        transform: scale(1.0); /* Scale down further for even smaller devices */
+    @media (max-width: 480px) and (orientation: portrait) and (device-aspect-ratio: 9/16) {
+        transform: scale(2.5); /* Scale up for Android devices in portrait mode */
     }
 
+    @media (max-width: 480px) and (orientation: landscape) {
+        transform: scale(0.5); /* Scale down for phones in landscape mode */
+    }
 }
 .arrow_up,
 .arrow_down,
