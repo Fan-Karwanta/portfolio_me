@@ -18,7 +18,17 @@
     -moz-osx-font-smoothing: grayscale
 }
 .custom-linkedin-icon {
-    transform: scale(2.5); /* Adjust the scale value to make the logo larger */
+    transform: scale(2.5); /* Default scale for larger devices */
+
+    /* Adjust the scaling for different screen sizes */
+    @media (max-width: 767px) {
+        transform: scale(2); /* Scale down for smaller devices */
+    }
+
+    @media (max-width: 480px) {
+        transform: scale(1.0); /* Scale down further for even smaller devices */
+    }
+
 }
 .arrow_up,
 .arrow_down,
