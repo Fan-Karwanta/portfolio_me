@@ -8,5 +8,6 @@ This is already replaced with my new one.
 I used threejs for my new portfolio.
 
 But if you want this design you can always have this.
+You can fork or clone this.
 
 Email me: fankarwanta@gmail.com
