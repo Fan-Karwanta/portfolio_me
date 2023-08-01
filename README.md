@@ -12,6 +12,6 @@ But if you want this design you can always have this.
 This can e a good start if you're an intermediate developer.
 You can freely clone this.
 
-Clone this.
+Clone this. If you want a simple and minimalist portfolio.
 
 This can be hosted just using github pages.
