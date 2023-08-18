@@ -19,5 +19,5 @@ Clone this. If you want a simple and minimalist portfolio.
 
 This can be hosted just using github pages.
 
-2023
+2023 All Rights Reserved.
 
