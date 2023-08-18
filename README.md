@@ -19,5 +19,7 @@ Clone this. If you want a simple and minimalist portfolio.
 
 This can be hosted just using github pages.
 
+By Fan Karwanta
+
 2023 All Rights Reserved.
 
