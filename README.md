@@ -1,7 +1,4 @@
 # My First Personal Portfolio (Already Changed)
-# OLD Portfolio
-
-Welcome
 
 Using HTML, CSS, Javascrpit, Bootstrap, etc.
 
