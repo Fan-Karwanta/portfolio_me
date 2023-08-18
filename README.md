@@ -18,3 +18,6 @@ You can freely clone this.
 Clone this. If you want a simple and minimalist portfolio.
 
 This can be hosted just using github pages.
+
+2023
+
